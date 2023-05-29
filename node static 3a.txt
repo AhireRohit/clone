@@ -1,0 +1,21 @@
+npm init 
+main directory index.js
+npm install express --save
+
+
+const express = require('express');
+const app = express()
+
+
+app.use(express.static('public'))
+app.listen(4000, ()=>{
+    console.log("Server is Started");
+} )
+
+
+in main directory create folder public
+inside public index.html
+
+
+use node index.js to start the Server
+localhost:4000
