@@ -1,0 +1,100 @@
+npm init
+main directory server.js
+********
+npm install dotenv express http-errors mongoose nodeman
+*********
+in main directory --> Controller folder --> Product_Controller.js 
+
+const mongoose = require('mongoose');
+
+// Import Model
+
+const Product = require('../Models/Product_Model.js').default;
+
+module.exports = {
+   
+    createNewProduct: async(req,res) =>{
+   try{
+        const product = new Product(req.body); 
+        const result = await product.save();
+        res.send(result);
+    }
+    catch(error){
+        console.log(error.message);
+
+    }
+   }
+}
+**********
+in main directory --> Models --> Product_Model.js
+
+const mongoose = require('mongoose');
+//user schema
+const ProductSchema = mongoose.Schema({
+  name: { 
+    type: String, 
+    required: true },
+  price: { 
+    type: Number, 
+    required: true },
+  
+});
+
+//export userSchema
+ const Product= mongoose.model('product', ProductSchema);
+ module.exports = Product;
+********
+in main directory --> Routes --> Product_Routs.js
+
+const express = require("express");
+const router = express.Router();
+
+//import
+
+const ProductController = require('../Controllers/Product_Controller.js');
+
+// post method [http://localhost:3000/product/]
+
+router.post(' / ', ProductController.createNewProduct);
+
+module.exports = router;
+
+******
+
+make file in main directory     .gitignore     add this in that -->    node_modules
+
+****
+
+make file in main directory   initDB.js
+
+const mongoose = require("mongoose");
+
+const connectDB= async()=>
+{
+    try{
+        var uri = `mongodb://localhost/27017/testDB`
+        await mongoose.connect(uri, {
+            useNewUrlParser : true,
+            //useNewUrlParser flag to allow users to fall back to the old parser if they find a bug in the new parser
+            useUnifiedTopology : true,
+            //The useUnifiedTopology option removes support for several connection options that are no longer relevant with the new topology engine
+        } (err =>{
+            if(err){
+                console.log("Connection to DB Failed");
+                console.log(err);
+            }
+        }));
+        console.log("Database Connection is Success");
+    }
+    catch(error)
+    {
+        console.log("Some Errors Occured");
+    }
+}
+module.exports = connectDB;
+
+*****
+
+ng server
+ ****
+ node index.js
