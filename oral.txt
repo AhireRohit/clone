@@ -1,0 +1,86 @@
+what is html?  --> HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.
+version? --> html5
+css? --> CSS stands for Cascading Style Sheets · CSS describes how HTML elements are to be displayed on screen, paper, or in other media ·
+version? --> 
+bootstrap? -->  it is a CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the newest version.framework for faster and easier web development
+what is cdn? --> content delivery network --> a network of servers that distributes content from an “origin” server throughout the world by caching content close to where each end user is accessing the internet via a web-enabled device.
+why include via cdn? --> Serving libraries
+
+placeholder --> specifies a short hint that describes the expected value of an input field or a textarea
+id --> id attribute is used to specify a unique id for an HTML element
+class -->  class attribute specifies one or more class names for an element 
+git  --> Git is a distributed version control system (DVCS) that allows multiple developers to collaborate on a project while keeping track of changes to source code or any other files.
+github --> GitHub is a web-based hosting service for Git repositories. It provides a platform for developers to store and share their Git repositories, collaborate with others, and contribute to open-source projects.
+git vs github --> 
+git bash --> Git Bash is a command-line interface (CLI) tool that provides a Unix-like shell on Windows systems. It allows Windows users to interact with Git and execute Git commands in a familiar Unix-like environment. 
+commands
+what is docker? open platform --> Docker is an open-source platform that enables you to automate the deployment, scaling, and management of applications using containerization. 
+why docker
+how to use docker?
+docker container --> Containers are lightweight, isolated environments that encapsulate an application and its dependencies, allowing it to run consistently across different computing environments.
+docker images -->  An image is a lightweight, standalone, and executable package that contains everything needed to run an application, including the code, runtime, libraries, and dependencies. 
+docker environment --> A Docker environment refers to the setup and configuration of Docker containers, images, and related components.
+    
+Node.js: Node.js is a runtime environment that allows you to run JavaScript on the server-side. It provides an event-driven architecture, making it well-suited for building scalable and high-performance network applications.
+Express.js: is a popular web application framework for Node.js. It provides a minimalistic and flexible set of features for building web applications and APIs.simplifies common web development tasks such as routing, handling HTTP requests and responses, and managing middleware.
+AJAX (Asynchronous JavaScript and XML): AJAX is a technique used in web development to send and retrieve data from a server asynchronously without requiring a full page reload. It enables dynamic and interactive web applications by allowing client-side JavaScript code to communicate with the server, retrieve data, and update the page content dynamically.
+
+MongoDB: MongoDB is a NoSQL database that provides a flexible and scalable approach to storing and retrieving data. It uses a document-oriented data model, where data is stored in JSON-like documents. MongoDB is known for its high performance, horizontal scalability, and rich query capabilities.
+
+Mongoose: Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a higher-level abstraction layer on top of the MongoDB driver, allowing you to define schemas, perform validation, and interact with the database in an easy and consistent manner. Mongoose simplifies working with MongoDB by providing a structured and intuitive API.
+
+    JavaScript: JavaScript is a programming language that is widely used in web development. It is primarily used for adding interactivity and dynamic behavior to websites. JavaScript can run both on the client-side (in web browsers) and the server-side (with the help of Node.js). It is a versatile language that supports various programming paradigms.
+
+    Angular: Angular is a popular front-end framework for building web applications. Developed and maintained by Google, Angular provides a comprehensive set of tools and features for building large-scale and complex applications. It follows the component-based architecture and provides features like data binding, dependency injection, routing, and powerful templating capabilities.
+
+ajax architecture
+grid --> Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive.
+bootstrap -->grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive. 12 --> 4 --> 3 --> 2 --> 1
+version control --> Version control is a system that manages changes to files, documents, or any other type of content over time. tracking , commiting, reverting
+
+AJAX POST method --> AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and retrieve data from a server asynchronously without requiring a full page reload. The POST method is one of the HTTP methods used to send data to the server. 
+
+static vs dynamic -->     A static website is made up of HTML and CSS files that are served to the user as they are, without any server-side processing. The content of a static website remains the same until manually updated. On the other hand, a dynamic website utilizes server-side scripting or programming languages (e.g., PHP, Python, Ruby) to generate web pages on-the-fly based on user requests and data. Dynamic websites can retrieve data from databases, process user input, and generate personalized content. They often use templates and content management systems (CMS) to streamline the process of creating and managing web pages.
+AWS VPC --> WS VPC is a virtual private network service provided by Amazon Web Services (AWS). It enables users to create and manage their isolated virtual networks within the AWS cloud environment.
+AWS Elastic Beanstalk --> AWS Elastic Beanstalk is a fully managed platform-as-a-service (PaaS) offered by Amazon Web Services. It simplifies the deployment and management of applications by providing an environment where developers can upload their application code and let Elastic Beanstalk handle the underlying infrastructure provisioning, deployment, scaling, and monitoring.
+{{}} --> In Angular, the double curly braces {{}} are used for data binding in templates. The data binding syntax allows you to dynamically bind values from the component's TypeScript file (.ts) to the HTML template.
+
+Here's why {{}} is used for data binding in Angular:
+
+    Interpolation: The {{}} syntax is known as interpolation. It allows you to insert values from the component into the HTML template
+
+
+Assignment 1 sniffer 1
+Ether / IP / UDP 142.250.182.74:https > 10.0.2.15:40309 / Raw:
+This line represents a UDP packet sent from the source IP address 142.250.182.74, port for HTTPS, to the destination IP address 10.0.2.15, port 40309. The packet contains raw data.
+
+
+
+Assignment 1 sniffer 2
+enp0s3 --> network interface
+verbose mode enabled (-v) 
+
+
+MAC address is the physical address, which uniquely identifies each device on a given network. --> 12-digit hexadecimal number 
+A MAC address is responsible for local identification and an IP address for global identification.
+
+
+packet? --> is a unit of data that is transmitted over a network. It contains the necessary information for network communication, such as the source and destination IP addresses, port numbers, and the actual data payload.
+sniffer? --> A sniffer, also known as a packet sniffer or network analyzer, is a tool or software that captures and analyzes network traffic.
+scapy --> Scapy is a powerful Python library used for network packet manipulation, creation, and analysis. It allows you to construct custom packets, send them over the network, and capture and analyze network traffic. Scapy provides a flexible and programmable approach to network packet handling.
+ddos -->  is an attack in which multiple compromised systems are used to flood a target system or network with an overwhelming amount of traffic, causing it to become unavailable or unusable. The goal of a DDoS attack is to disrupt the target's services by exhausting its resources, such as bandwidth, processing power, or memory.
+DNS how done --> A DNS (Domain Name System) attack refers to malicious activities that target the DNS infrastructure or exploit vulnerabilities in the DNS protocol. These attacks aim to disrupt the DNS services, manipulate DNS responses, or redirect legitimate DNS queries to malicious destinations. 
+spoofing -->  Spoofing refers to the act of falsifying or impersonating something or someone on a network. In the context of networking, IP spoofing is a technique where an attacker modifies the source IP address in a packet to make it appear as if it originated from a different source.
+what, why, how , extension, filter wireshark --> Wireshark is a popular open-source network protocol analyzer. It allows you to capture, analyze, and dissect network packets in real-time. Wireshark supports a wide range of protocols and provides advanced filtering and analysis capabilities. It helps in diagnosing network issues, understanding protocol behavior, and inspecting network traffic for security purposes.
+pcapng is extension of wireshark file
+pcapng --> PCAP Next Generation Dump File Format 
+
+Intrusion detection system --> designed to detect and alert on unauthorized access attempts on a computer network or system.
+IDS can be classified into two main categories:
+1. Network-based
+Network-based IDS monitor network traffic and analyze data packets in order to detect potential security threats,
+2. Host-based.
+host-based IDS are installed on individual computers or servers to monitor local system activity.
+
+
+
